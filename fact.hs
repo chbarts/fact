@@ -18,8 +18,7 @@ usage = do
             putStrLn "fact [-hv] [--help|--version] [nums...]"
             putStrLn "Prints the factorials of its arguments"
 
-version = do
-             putStrLn "fact version 1.0"
+version = putStrLn "fact version 1.0"
 
 exit  = exitWith ExitSuccess
 abend = exitWith (ExitFailure 1)
